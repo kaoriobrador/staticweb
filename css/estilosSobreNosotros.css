@@ -1,0 +1,110 @@
+.d-flex ul li{
+    list-style: none;
+    display: inline;
+}
+#idtexto{
+    text-align:justify;
+    margin: 50px;
+    
+    
+}
+ #rowNumber2{
+    margin-top:18px;
+    height: 400px;
+    /*width: 565.67;*/
+}
+#idFondoRosa{
+    background-color:#f5E1DA;
+    z-index: 0;
+    height:520px;
+}
+#idFondoVerde{
+    background-color:#D3E7DB;
+    z-index: 0;
+    height:520px;
+}
+
+#rowNumber1{
+    height: 500px;
+    /*width: 565.67;*/
+}
+
+p{
+    /*font-family:'sans-serif'; */
+    font-size: 18px;
+    font-family:"avenir-lt-w01_35-light1475496,sans-serif";
+    
+    
+}
+h6{
+    text-align: center;
+    font-weight: normal;
+    margin-top: 40px;
+    font-family:"avenir-lt-w01_35-light1475496,sans-serif";
+}
+#imgRayas{
+    position: absolute;
+    z-index: 1;
+   /* margin-left: -20px;*/
+}
+#imgRayas2{
+    position: absolute;
+    z-index: 1;
+    margin-top:50px;
+   /* margin-left: -20px;*/
+}
+#imgSemiesfera{
+    position: absolute;
+    z-index: -1;
+    height: 423px;
+    width: 328px;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+
+
+}
+@media(max-width:500px){
+    #imgSemiesfera{
+         position: absolute;
+         z-index: -1;
+         height: 323px;
+         width: 228px;
+         margin-top: 50px;
+         margin-left: 60px;
+         margin-bottom: 10px;
+     } 
+     #imgRayas{
+     position: absolute;
+     z-index: 1;
+     margin-left: -80px;
+     margin-top: 60px;
+     height: 323px;
+         width: 228px;
+     }
+     #imgRayas2{
+     position: absolute;
+     z-index: 1;
+     margin-left: -50px;
+     margin-top: 60px;
+     height: 323px;
+         width: 228px;
+     }
+     #idFondoRosa{
+     background-color:#f5E1DA;
+     z-index: 0;
+     height:434.67px;
+ }
+ #idFondoVerde{
+    background-color:#D3E7DB;
+    z-index: 0;
+    height:435px;
+}
+ #rowNumber2{
+    margin-top:670px;
+    height: 400px;
+    /*width: 565.67;*/
+}
+     
+     
+ }

@@ -1,0 +1,357 @@
+#productitos{
+    /*background-color:#F5E1DA;*/
+   /* padding: 30px 0px;*/
+}
+.nav-link active{
+    color: red;
+}
+.d-flex ul li{
+    list-style: none;
+    display: inline;
+}
+.card{
+     border: none;
+     background-color:#FAEFEB;
+  
+}
+.card-text{
+    text-align:center;
+   /* margin-bottom: 10px;*/
+}
+.card-body2{
+    
+    /*padding-bottom: 60px;
+    margin-bottom: 30px;*/
+}
+.card-img-top-Matcha{
+    height:170px;
+    width: 193px;
+    margin-top: 30px;
+    margin-left: 20px;
+   
+    
+    /*object-fit: cover;*/
+
+}
+.card-img-top-Chocolate img{
+    /*height: 244.5px;
+    width: 285px;*/
+    height: 229.5;
+    width: 286;
+
+}
+.card-img-top-matcha{
+    padding-top: 15px;
+}
+.card-img-topCoco{
+    height:236.7px;
+    width: 278px;
+}
+.card-img-top-Sesamito{/*casi igual que el card-img-top-Matcha*/
+    height:170px;
+    width: 193px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+ .card-img-top-TeMatcha{
+    height:184px;
+    width: 165px;
+    /*object-fit: cover;*/
+    margin-left: 40px;
+    
+}
+.card-img-top-TrufaYuzu{
+    height:170px;
+    width: 131px;   
+}
+.card-textYuzu{
+    text-align: left;
+    padding-top: 15px;
+}
+.trufastitulo{
+    margin-top: 30px;
+}
+.card-img-top-trufas{
+   height:182px;
+    width: 184px; 
+     margin-top:3px;
+    margin-left:50px;
+}
+.card-textTrufas{
+   margin-left:120px; 
+}
+.card-img-top-Kastera{
+    /*height:270px;
+    width: 293px;*/
+    height:300px;
+    width: 323px;
+    /*object-fit: cover;*/
+    margin-top: -40px;
+    
+}
+.card-textKastera{
+    text-align: center;
+    margin-top: -50px;
+
+}
+
+.card-img-top-pastelQueso{/*323 300*/
+    height: 200px;
+    width: 253px;
+    object-fit: cover;
+    margin-top: -5px;
+
+}
+ .card-img-top-carrotCake{
+    /*height:270px;
+    width: 293px;*/
+    height:330px;
+    width: 333px;
+    /*object-fit: cover;*/
+    margin-top: -105px;
+    margin-left:-15px;
+    
+}
+.card-img-top-brownie{
+   height:250px;/*quito 20*/
+    width: 240px;
+    /*object-fit: cover;*/
+    margin-top: -40px;
+    margin-left:35px;
+     
+}
+ .card-img-top-carrotMatcha{
+    /*height:270px;
+    width: 293px;*/
+    height:310px;
+    width: 313px;
+    /*object-fit: cover;*/
+    margin-top: -110px;
+    margin-left:5px;
+    
+}
+.card-textCarrotCake{
+    text-align: center;
+    /*margin-left: 60px;*/
+    margin-top: -45px;
+}
+.card-textBrownie{
+     text-align: center;
+   /* margin-left: 60px;*/
+    margin-top: -30px;
+}
+
+.card-textQueso{
+    text-align: center;
+    margin-top: 13px;;
+}
+#sesamito{
+    margin-top: 10px;
+    margin-left: 15px;
+   
+}
+#mangoYlima{
+    margin-left: -15px;
+    margin-top:-10px;
+}
+#chocolatito{
+    /*padding-bottom: 20px;*/
+}
+.card-body2Sesamo p{
+    text-align: start;
+}
+.card-textSesamito{
+   text-align: center;
+   padding-right: 45px;
+}
+.card-body2Chocolate{
+   height: 5px;
+}
+.card-textChocolate{
+   margin-top: -20px; 
+   text-align: center;
+}
+.card-textSesamito{
+    margin-top: 32px;
+}
+
+
+@media(min-width:1024px){
+    #productitos{
+       width: 80%;
+        margin:auto;
+        /*grid-template-columns: repeat(4,1fr);*/
+    }
+}
+body{
+ background-color:#FAEFEB;
+
+}
+.d-flex{
+    background-color:white; 
+}
+h3{
+    text-align: center;
+    font-weight: normal;
+    margin-top:30px;
+    font-family:'Julius Sans One', sans-serif; 
+    /*font-weight: bold;*/
+}
+h2{
+    
+    font-weight: normal;
+    margin-left: 10px;
+    font-family:'Julius Sans One', sans-serif; 
+    font-weight: bold;
+}
+#row1{
+   margin-top: 30px;
+}
+#row2{
+    margin-top: -10px;
+    text-align: center;
+ }
+ .card-textCoco{
+    margin-left:60px;
+    margin-top:-10px;
+ }
+
+
+
+
+ @media(max-width:500px){
+     
+    #mangoYlima{
+        margin-left:10px;
+    }
+   
+    
+    .card-textCoco{
+        margin-left: 70px;
+
+    }
+    .card-textChocolate{
+       margin-left: 40px; 
+    }
+    
+    .card-img-topLichi{
+        height:226.7px;
+        width: 268px;
+        
+    }
+     .card-img-topLima{
+        height:226.7px;
+        width: 268px;
+        
+    }
+    #YuzuCard{
+        margin-top:20px;
+        margin-left:50px;
+    }
+    
+    .card-img-top-TeMatcha{
+        height:164px;
+        width: 145px;
+        /*object-fit: cover;*/
+        margin-left: 40px;
+            
+    }
+    .card-textYuzu{
+         margin-left:10px;
+    }
+    .card-textKastera{
+    text-align: left;
+    margin-left:60px;
+    margin-top: -50px
+
+}
+#PastelQueso{
+    margin-left:50px;
+    margin-top:10px;
+    
+}
+#kasteraTe{
+    margin-top:-30px;
+}
+.card-textQueso{
+    margin-left:10px;
+    text-align: left;
+    margin-top: 13px;;
+}
+.card-img-top-pastelQueso{/*323 300*/
+    height: 150px;
+    width: 203px;
+    object-fit: cover;
+    margin-top: -5px;
+
+}
+.card-img-top-Kastera{
+    /*height:270px;
+    width: 293px;*/
+    /*height:300px;
+    width: 323px;*/
+    height:250px;
+    width: 273px;
+    /*object-fit: cover;*/
+    margin-top: -40px;
+    
+}
+ .card-img-top-carrotCake{
+    /*height:270px;
+    width: 293px;*/
+    height:290px;
+    width: 300px;
+    /*object-fit: cover;*/
+    margin-top: -100px;
+    margin-left:-16px;
+    
+}
+ .card-img-top-carrotMatcha{
+   /*height:270px;
+    width: 293px;*/
+    height:270px;
+    width: 260px;
+    /*object-fit: cover;*/
+    margin-top: -95px;
+    margin-left:6px;
+    
+}
+.card-img-top-trufas{
+   height:162px;
+    width: 164px; 
+     margin-top:20px;
+    margin-left:50px;
+}
+.card-textTrufas{
+   margin-left:60px; 
+}
+.card-img-top-brownie{
+   height:270px;/*quito 30*/
+    width: 260px;
+    /*object-fit: cover;*/
+    margin-top: -20px;
+    margin-left:22px;
+     
+}
+.card-textCarrotCake{
+    text-align: left;
+    margin-left: 60px;
+    margin-top: -40px;
+}
+.card-textBrownie{
+     text-align: left;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+h2{
+    
+
+    margin-top: 50px;
+   
+}
+
+    
+ }
+ 
+

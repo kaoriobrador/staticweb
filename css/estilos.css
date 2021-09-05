@@ -1,0 +1,443 @@
+/**********************************************Rachelina*************************************************************/
+/*@import url(//db.onlinewebfonts.com/c/334000f90aedafbf6985f6a9333a8127?family=Hertine+-+Personal+Use);
+@font-face {font-family:" Hertine - Personal Use"; 
+    src: url("//db.onlinewebfonts.com/t/334000f90aedafbf6985f6a9333a8127.eot");
+    src: url("//db.onlinewebfonts.com/t/334000f90aedafbf6985f6a9333a8127.eot?#iefix")format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/334000f90aedafbf6985f6a9333a8127.woff2")
+         format("woff2"), url("//db.onlinewebfonts.com/t/334000f90aedafbf6985f6a9333a8127.woff")
+        format("woff"), url("//db.onlinewebfonts.com/t/334000f90aedafbf6985f6a9333a8127.ttf") 
+        format("truetype"), url("//db.onlinewebfonts.com/t/334000f90aedafbf6985f6a9333a8127.svg#Hertine - Personal Use")
+         format("svg"); } 
+
+h2{
+    font-family:" Hertine - Personal Use"; 
+    color:orange;
+    font-weight: bold;
+  
+    
+}*/
+/*@font-face {
+    font-family:"JuliusSansOne";
+    src: url('fonts/JuliusSansOne-Regular.ttf') format('truetype');
+    
+}*/
+/*h2{
+    font-family:'Julius Sans One', sans-serif; 
+    font-size: 45px;
+    color:#8B0000;
+    font-weight:bold;
+    letter-spacing: 0.2em;
+}*/
+h1{
+    font-family:'Julius Sans One', sans-serif; 
+    color:#8B0000;
+    font-weight:bold;
+    letter-spacing: 0.2em;
+    
+    
+}
+h6{
+    font-family:'Julius Sans One', sans-serif; 
+    color:#8B0000;
+   
+    font-weight:bold;
+    
+    
+}
+  
+#contenido{
+    color: red;
+    font-weight: bold;
+}
+#contenidoEnviado{
+    color:green;
+    font-weight: bold;
+}
+.contacto{
+    
+   font-family:'Julius Sans One', sans-serif; 
+    color:#8B0000;
+    font-weight:bold;
+    letter-spacing: 0.2em;
+    
+}
+
+.d-flex ul li{
+    list-style: none;
+    display: inline;
+}
+
+.container-fluid header nav navbar-nav li a{
+    text-decoration:none;
+    color: orange;
+
+
+}
+
+#galeria img{
+    width: 100%;
+    height: 350px;
+}
+
+
+
+/*#probando{
+box-sizing: border-box;
+margin: 0;
+padding:0;
+
+}*/
+
+
+/*.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row .column{
+    flex:33.3%;
+}
+
+.row .column img{
+    width: 100%;
+    height: 100%;
+}
+/*.probando img{
+    width: 100%;
+
+}*/
+/*.probando{
+    display: flex;
+    padding: 1px;
+}
+
+.probando div{
+    border: 2px;
+    border-color: black;
+}*/
+body{
+    margin: 0;
+}
+
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   /*grid-auto-rows: 150px;*/
+   padding: 10px;
+   grid-gap: 10px;
+}
+/*.espacioEntreImagenes{
+   height:371.2px;
+    /*padding-bottom: 18px;
+}*/
+/*.espacioEntreImagenes2{
+
+    margin-bottom:30px;
+  
+}*/
+.espacioEntreImagenesTe{
+    margin-top:10px;
+}
+.espacioEntreImagenesBizcochito{
+    padding-top: 20px;
+}
+.espacioEntreImagenes3{
+    margin-top: 10px;
+  
+}
+.espacioEntreImagenes4{
+    padding-top: 10px;
+  
+}
+
+.gallery-container img{
+    width:100%;
+    height: 100%;
+    
+    object-fit: cover;
+}
+
+.gallery-item2{
+    grid-column: span 2;
+    
+}
+.gallery-item3{
+    grid-column: span 3;
+    
+}
+.gallery-item4{
+    grid-column: span 3;
+    width: 320px;
+    
+}
+.gallery-item5{
+    grid-column: span 2;
+    width: 320px;
+}
+.gallery-itemFresas{
+    grid-column: span 2;
+   /* height: 341.2px;*/
+
+}
+.gallery-itemMochiRedondo{
+     grid-column: span 2;
+}
+.gallery-itemVerde{
+    grid-column: span 3;
+    margin-bottom:10px;
+   
+
+
+}
+.polvoVerdeArriba{
+    margin-bottom:10px;
+    height:50%;
+}
+.polvoVerdeArriba2{
+    margin-bottom:10px;
+    /*background-color:yellow;*/
+    height:50%;
+}
+.polvoVerdeAbajo{
+    
+    height:50%;
+     margin-bottom:10px;
+    /*object-fit: cover;*/
+}
+.espacioEntreImagenesTe{
+    padding-top:1px;
+    height:60%;
+    width:100%;
+    padding-bottom:10px;
+}
+.espacioEntreImagenesTeUp{
+    height:40%;
+    width:100%;
+}
+
+.h4-responsive{
+    font-family:'Julius Sans One', sans-serif; 
+    color:#8B0000;
+    font-weight:bold;
+    letter-spacing: 0.2em;
+}
+.letrabonita{
+    font-family:'Julius Sans One', sans-serif; 
+    color:#8B0000;
+    font-weight:bold;
+    letter-spacing: 0.2em;
+}
+ .espacioEntreImagenesNataFresa{
+        margin-top: 10px;
+        height: 170px;
+    }
+ .espacioEntreImagenesNataFresa2{
+       margin-top: 10px; 
+    }
+  .nataFresaDown{
+        height:60%;
+        width:100%;
+        padding-top:10px;
+    }
+    .nataFresaUp{
+        height:40%;
+        width:100%;
+    }  
+    .polvoVerdeAbajo2{
+    
+    height:50%;
+     /*background-color:pink;*/
+     margin-bottom:10px;
+    /*object-fit: cover;*/
+    }
+    
+    
+
+/***************************************************movil pekeñín*****************************************/
+@media(max-width:360px){
+    .gallery-itemFresas{
+       /* grid-column: span 2;*/
+         height: 247.85px;
+    }
+     .gallery-item1{
+        height: 247.85px;
+       /* margin-bottom:10px;*/
+    }
+    .gallery-itemComboPastel{
+       height:250.87px;
+       /* margin-bottom:10px;*/
+    }
+    .nataFresaUp{
+        height:40%;
+    }
+    .nataFresaDown{
+        height:60%;
+        width:100%;
+        padding-top:10px;
+    }
+    .nataFresaUp{
+        height:40%;
+        width:100%;
+    }     
+}
+/***********************************************************-movil mediano***************************-*/
+@media(max-width:500px){
+    /*.espacioEntreImagenesTe{
+       margin-top:10px;
+       
+    }*/
+    .gallery-itemFresas{
+        /*grid-column: span 2;*/
+         height: 350.43px;
+    }
+     .gallery-item1{
+       height: 350.43px;
+       /* margin-bottom:10px;*/
+    }
+    .gallery-itemComboPastel{
+       height: 321.2px;
+        /*margin-bottom:10px;*/
+    }
+    .nataFresaUp{
+        height:40%;
+    }
+    .nataFresaDown{
+        height:60%;
+        width:100%;
+        padding-top:10px;
+    }
+    .nataFresaUp{
+        height:40%;
+        width:100%;
+    } 
+    .polvoVerdeAbajo2{
+        height:150.5px;
+        
+    } 
+    .polvoVerdeArriba2{
+        
+        /*background-color:yellow;*/
+        height:150.5px;
+    } 
+    h1{
+        font-size:22px;
+    }
+   
+}
+ /**********************************************************tablet**************************************/
+@media(max-width:765px){
+    /*.espacioEntreImagenesTe{
+       margin-top:10px;
+       
+    }*/
+     
+     /*.gallery-itemComboPastel{
+       height:341.2px;
+        margin-bottom:10px;
+    }*/
+    
+    .espacioEntreImagenesNataFresa{
+        margin-top: 20px;
+        height: 170px;
+    }
+    /* .espacioEntreImagenesNataFresa2{
+        padding-top: 20px;
+        height: 170px;
+
+    }*/
+ 
+}
+/*****************************************************computer*************************************************/
+@media(min-width:1024px){
+    .gallery-container{
+        width: 80%;
+        margin: auto;
+        grid-template-columns: repeat(6,1fr);
+    }
+    .row{
+        margin-left:0%;
+    }
+    .gallery-itemVerde{
+        height:361.2px;
+    }
+    .gallery-item2{
+        height:371.2px;
+        
+    }
+    .gallery-item3{
+        height:371.2px;
+        
+    }
+    .gallery-itemTeyRollitos{
+        height:371.2px;
+    }
+    .gallery-item1{
+       height:371.2px;
+       /* margin-bottom:10px;*/
+    }
+    
+     .gallery-itemComboPastel{
+       height:371.2px;
+        margin-bottom:10px;
+    }
+    .espacioEntreImagenesNataFresa{
+        margin-top: 10px;
+        /*margin-bottom: 10px;*/
+        height: 165px;
+    }
+    /*.espacioEntreImagenesNataFresa2{
+        margin-top: 10px;
+        /*margin-bottom: 10px;*/
+       /* height: 165px;
+    }*/
+    
+    /*.espacioEntreImagenes{
+      height:371.2 px; 
+    }*/
+    /*.espacioEntreImagenesTe{
+       margin-top:10px;
+    }*/
+    .gallery-utensilios img{
+       
+        /*object-fit: cover;*/
+    }
+    .polvoVerdeAbajo{
+    
+        height:50%;
+         margin-bottom:10px;
+       /* object-fit: cover;*/
+    }
+/* .polvoVerdeAbajo img{
+    height:180px;
+    
+   /* object-fit: cover;*/
+    /*.gallery-itemFresas{
+        height:371.2px;
+    }*/
+     .gallery-itemComboPastel{
+       height:371.2px;
+        margin-bottom:10px;
+    }
+    .espacioEntreImagenesNataFresa{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        height: 165px;
+    }
+    .gallery-itemFresas{    
+    grid-column: span 2;
+    height: 371.2px;
+    }
+    .polvoVerdeAbajo2{
+    
+        height:50%;
+         /*background-color:pink;*/
+         margin-bottom:10px;
+       /* object-fit: cover;*/
+        /*background-color:green;*/
+    }
+}
+    
+    
+
+
+

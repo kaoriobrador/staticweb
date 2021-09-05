@@ -1,0 +1,262 @@
+<!doctype html>
+<!--**********************Rachelina**********************************************************************-->
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+
+    <link href="css/estilos.css" type="text/css" rel="stylesheet">
+    <!--<link type="text/css" rel="stylesheet" href="css/estilos.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!--link a la letra Julius-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script >
+     function validateForm() {
+        var name =  document.getElementById('name').value;
+        var x=document.getElementById('ocultoVisible');
+        var y=document.getElementById('ocultoVisibleEnviado');
+
+       
+        /*if (name == "") {
+            /*document.querySelector('.status').innerHTML = "       Indique su nombre por favor";*/
+            /*var x=document.getElementById('ocultoVisible').value;
+            x.style.display='';
+            document.getElementById("contenido").innerHTML="pon el nombre";
+            
+            return false;
+        }*/
+        var email =  document.getElementById('email').value;
+        if (email == "") {
+            //document.querySelector('.status').innerHTML = " Indique su email por favor";
+            x.style.display='block';
+            document.getElementById("contenido").innerHTML="Error </br> Rellene el campo email por favor.";
+            return false;
+        } else {
+            var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            if(!re.test(email)){
+                //document.querySelector('.status').innerHTML = " El formato del email es incorrecto";
+                x.style.display='block';
+                document.getElementById("contenido").innerHTML="Error</br> El formato del email es incorrecto";
+                return false;
+            }
+        }
+        
+        var message =  document.getElementById('message').value;
+        if (message == "") {
+            //document.querySelector('.status').innerHTML = "Escríbanos su consulta por favor";
+            x.style.display='block';
+            document.getElementById("contenido").innerHTML="Error </br> Rellene el campo  mensaje por favor";
+            return false;
+        }
+        x.style.display='none';
+        y.style.display='block';
+        document.getElementById("contenidoEnviado").innerHTML="Mensaje enviado";
+
+        //document.querySelector('.status').innerHTML = "Mensaje enviado.";
+       // alert("mensaje enviado")
+        Swal.fire({
+        position: 'center',
+        icon: 'success',
+         title: 'Mensaje enviado',
+        showConfirmButton: false,
+         timer: 20000
+       })
+        document.getElementById('contact-form').submit();
+
+     }
+     </script> 
+     <!--wassup-->
+    <link rel="stylesheet" href="css/whats.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/whats2.css">
+  </head>
+  <body>
+     
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class="d-flex flex-row-reverse bd-highlight">
+      <!--<div class="p-2 bd-highlight">Castellano</div>-->
+      
+      <div class="p-1 bd-highlight" ><a href="contacte.html" style="text-decoration:none;color:black;">Català</a></div>
+      <div class="p-1 bd-highlight"><a href="contacto.html" style="text-decoration:none;color:black;">Español</a></div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <div class="mx-auto" style="width:px;">
+          
+            <img src="img/logo310721.png" width="150px"class="img-fluid" class="mx-auto"alt="...">
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <!--<a class="nav-link active" aria-current="page" href="" style="font-size:1rem;">Inicio</a>-->
+              <a class="nav-link active" aria-current="page" href="index.html" style="font-size:1rem;">Inicio</a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Sobre_nosotros.html" style="font-size:1rem;">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html" style="font-size:1rem;">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacte" style="font-size:1rem;">Contacto</a></a>
+            </li>
+         </ul>
+          <form class="d-flex">
+            <ul>
+              <li><a href="https://www.instagram.com/kaoriobrador/"><i class="bi bi-instagram" style="font-size: 2rem; color:grey;"></i></a></li>
+            </ul>
+            <!--<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>-->
+          </form>
+        </div>
+      </div>
+    </nav>
+  <br>
+
+<section class="mb-4">
+
+  
+   <h1 class="h1-responsive font-weight-bold text-center my-2">Contacto</h1>
+   <h6 class="text-center w-responsive mb-5">Escríbenos o llámanos para cualquier consulta.</h6>
+  
+
+  <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-2">
+                        <label for="name" class="">Nombre de contacto:</label>
+                        <input type="text" id="name" name="name" class="form-control">
+                          
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-2">
+                          <label for="email" class="">Email:</label>
+                          <input type="text" id="email" name="email" class="form-control">
+                          
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+              <!--Grid row-->
+              <div class="row">
+                <a name="contacte"></a>
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form mb-2">
+                        <label for="message">Escriba un mensaje:</label>
+                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-secondary" onclick="validateForm();">Enviar</a>
+          </div>
+          <div  class="text-center text-md-left" id="ocultoVisible" style="display:none;" >
+            <p id="contenido">holita</p>
+         </div>
+         <div  class="text-center text-md-left" id="ocultoVisibleEnviado" style="display:none;" >
+          <p id="contenidoEnviado">holita</p>
+       </div>
+          <!--<div class="status"></div>-->
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <!--<li><i class="fas fa-map-marker-alt fa-2x"></i>
+                <p class="contacto">Contacto</p>
+              </li>-->
+
+              <li><i class="bi bi-telephone" style="font-size: 2rem; color:grey;"></i>
+                <p>658419633</p>
+              </li>
+
+              <li><i class="bi bi-envelope" style="font-size: 2rem; color:grey;"></i>
+                <p>kaori.obrador@gmail.com</p>
+              </li>
+          </ul>
+      </div>
+      <!--Grid column-->
+
+  </div>
+    <!--wassup-->
+     <div class="nav-bottom">
+           <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+            <div class="popup-whatsapp fadeIn">
+                <div class="content-whatsapp -top"><button type="button" class="closePopup">
+                      <i class="material-icons icon-font-color">close</i>
+                    </button> 
+                  
+                   <p>  <img src="img/secretary.png" width="50">  Hola!, quieres contactar con nosotros por WhatsApp? </p>
+                   
+                </div>
+                <div class="content-whatsapp -bottom">
+                  <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+                   
+                   
+                  
+          
+                    <button class="send-msPopup" id="send-btn" type="button">
+                        <i class="material-icons icon-font-color--black">send</i>
+                    </button>
+
+                </div>
+            </div>
+            <button type="button" id="whats-openPopup" class="whatsapp-button">
+                <div class="float" >
+  <i class="fa fa-whatsapp my-float"></i></div>
+            </button>
+            <div class="circle-anime"></div>
+        </div>
+        <script  src="js/script2.js"></script>
+</section>
+<!--Section: Contact v.2-->
+
+<footer class="bg-light text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-2" style="background-color:#F8F9FA">
+    © 2021 Copyright Kaori
+    <!--<a class="text-dark"> Kaori</a-->
+  </div>
+  <!-- Copyright -->
+</footer>
+
