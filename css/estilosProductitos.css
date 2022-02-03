@@ -16,10 +16,11 @@
 }
 .card-text{
     text-align:center;
+    font-size: 1.2rem;
    /* margin-bottom: 10px;*/
 }
 .card-body2{
-    
+    font-size: 1.2rem;
     /*padding-bottom: 60px;
     margin-bottom: 30px;*/
 }
@@ -46,6 +47,7 @@
 .card-img-topCoco{
     height:236.7px;
     width: 278px;
+    
 }
 .card-img-top-Sesamito{/*casi igual que el card-img-top-Matcha*/
     height:170px;
@@ -66,6 +68,7 @@
     width: 131px;   
 }
 .card-textYuzu{
+    font-size: 1.2rem;
     text-align: left;
     padding-top: 15px;
 }
@@ -79,6 +82,7 @@
     margin-left:50px;
 }
 .card-textTrufas{
+    font-size: 1.2rem;
    margin-left:120px; 
 }
 .card-img-top-Kastera{
@@ -91,6 +95,7 @@
     
 }
 .card-textKastera{
+    font-size: 1.2rem;
     text-align: center;
     margin-top: -50px;
 
@@ -132,17 +137,20 @@
     
 }
 .card-textCarrotCake{
+    font-size: 1.2rem;
     text-align: center;
     /*margin-left: 60px;*/
     margin-top: -45px;
 }
 .card-textBrownie{
      text-align: center;
+     font-size: 1.2rem;
    /* margin-left: 60px;*/
     margin-top: -30px;
 }
 
 .card-textQueso{
+    font-size: 1.2rem;
     text-align: center;
     margin-top: 13px;;
 }
@@ -162,6 +170,7 @@
     text-align: start;
 }
 .card-textSesamito{
+    font-size: 1.2rem;
    text-align: center;
    padding-right: 45px;
 }
@@ -169,10 +178,12 @@
    height: 5px;
 }
 .card-textChocolate{
+    font-size: 1.2rem;
    margin-top: -20px; 
    text-align: center;
 }
 .card-textSesamito{
+    font-size: 1.2rem;
     margin-top: 32px;
 }
 
@@ -213,7 +224,7 @@ h2{
     text-align: center;
  }
  .card-textCoco{
-    margin-left:60px;
+    margin-left:80px;
     margin-top:-10px;
  }
 
@@ -228,10 +239,12 @@ h2{
    
     
     .card-textCoco{
+        font-size: 1.2rem;
         margin-left: 70px;
 
     }
     .card-textChocolate{
+        font-size: 1.2rem;
        margin-left: 40px; 
     }
     
@@ -258,9 +271,11 @@ h2{
             
     }
     .card-textYuzu{
-         margin-left:10px;
+        font-size: 1.2rem;
+        margin-left:10px;
     }
     .card-textKastera{
+        font-size: 1.2rem;
     text-align: left;
     margin-left:60px;
     margin-top: -50px
@@ -275,6 +290,7 @@ h2{
     margin-top:-30px;
 }
 .card-textQueso{
+    font-size: 1.2rem;
     margin-left:10px;
     text-align: left;
     margin-top: 13px;;
@@ -335,11 +351,13 @@ h2{
      
 }
 .card-textCarrotCake{
+    font-size: 1.2rem;
     text-align: left;
     margin-left: 60px;
     margin-top: -40px;
 }
 .card-textBrownie{
+    font-size: 1.2rem;
      text-align: left;
     margin-left: 60px;
     margin-top: -30px;
