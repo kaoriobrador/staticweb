@@ -1,11 +1,12 @@
 <!doctype html>
+<!--**********************Rachelina**********************************************************************-->
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mochis Barcelona | Monas Barcelona</title>
-    <meta name="description" content="<Obrador de mochis en Barcelona. Pasteles, tartas y dulces japoneses Barcelona. Monas personalizadas."/>
+    <meta name="description" content="Obrador de mochis en Barcelona. Pasteles, tartas y dulces japoneses Barcelona. Monas personalizadas."/>
     <meta name="keywords" content="mochis Barcelona, dulces japoneses , monas personalizadas"/>
     <meta name="author" content="R. Gómez" />
 
@@ -28,6 +29,15 @@
         var x=document.getElementById('ocultoVisible');
         var y=document.getElementById('ocultoVisibleEnviado');
 
+       
+        /*if (name == "") {
+            /*document.querySelector('.status').innerHTML = "       Indique su nombre por favor";*/
+            /*var x=document.getElementById('ocultoVisible').value;
+            x.style.display='';
+            document.getElementById("contenido").innerHTML="pon el nombre";
+            
+            return false;
+        }*/
         var email =  document.getElementById('email').value;
         if (email == "") {
             //document.querySelector('.status').innerHTML = " Indique su email por favor";
@@ -55,6 +65,8 @@
         y.style.display='block';
         document.getElementById("contenidoEnviado").innerHTML="Mensaje enviado";
 
+        //document.querySelector('.status').innerHTML = "Mensaje enviado.";
+       // alert("mensaje enviado")
         Swal.fire({
         position: 'center',
         icon: 'success',
@@ -70,7 +82,6 @@
     <link rel="stylesheet" href="css/whats.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/whats2.css">
-    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
   </head>
   <body>
      
@@ -79,8 +90,8 @@
     <div class="d-flex flex-row-reverse bd-highlight">
       <!--<div class="p-2 bd-highlight">Castellano</div>-->
       
-      <div class="p-1 bd-highlight" href="index.html">Español</div>
-      <div class="p-1 bd-highlight"><a href="index_catala.html" style="text-decoration:none;color:black;">Català</a></div>
+      <div class="p-1 bd-highlight" ><a href="contacte.html" style="text-decoration:none;color:black;">Català</a></div>
+      <div class="p-1 bd-highlight"><a href="contacto.html" style="text-decoration:none;color:black;">Español</a></div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -96,141 +107,35 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="" style="font-size:1rem;">Inicio</a>
+              <!--<a class="nav-link active" aria-current="page" href="" style="font-size:1rem;">Inicio</a>-->
+              <a class="nav-link active" aria-current="page" href="index.html" style="font-size:1rem;">Inicio</a>
+
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Sobre_nosotros.html" style="font-size:1rem;">Sobre nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="productos.html" style="font-size:1rem;">Productos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="monasBarcelona.html" style="font-size:1rem;">Monas de Pascua</a>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html" style="font-size:1rem;">Mochis</a>
               </li>
-            <li class="nav-item">
-              <a class="nav-link" href="tienda.html" style="font-size:1rem;">Comprar</a>
+              <li class="nav-item">
+                  <a class="nav-link" href="monasBarcelona.html" style="font-size:1rem;">Monas de Pascua</a>
             </li>
-			<li class="nav-item">
-              <a class="nav-link" href="contacto.html" style="font-size:1rem;">Contacto</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacte" style="font-size:1rem;">Contacto</a></a>
             </li>
          </ul>
           <form class="d-flex">
             <ul>
               <li><a href="https://www.instagram.com/kaoriobrador/"><i class="bi bi-instagram" style="font-size: 2rem; color:grey;"></i></a></li>
             </ul>
-            
+            <!--<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>-->
           </form>
         </div>
       </div>
     </nav>
-   
-    <img src="img/web kaori negro.jpg" class="img-fluid  mx-auto d-block"alt="...">
-    <br>
-    <h1 class="text-center">OBRADOR ARTESANAL BARCELONA</h1>
-    <br>
-    <br>
-    
-    <div class="gallery-container">
-     <div class="gallery-itemTeyRollitos">
-         <div class="espacioEntreImagenesTeUp">
-          <img src="img/teaTime.jpg" alt="galeria1">
-        </div>
-        <div class="espacioEntreImagenesTe">
-          <img src="img/utensilios.jpg" alt="galeria1">
-        </div>
-         
-       
-         
-      </div>
-      <div class="gallery-item2">
-        <img src="img/mochisBarcelona.gif" alt="mochis Barcelona">
-     
-      </div>
-      <!--<div class="gallery-item">
-        <img src="img/nata.jpg" alt="galeria1">
-      </div>-->
-      <div class="gallery-itemFresas">
-        <img src="img/fresas.jpg" alt="galeria1">
-      </div>
-      <div class="gallery-item1">
-        <!--<div><img src="img/nataFresa.jpg" alt="galeria1"></div>-->
-        <div class="nataFresaUp"><img src="img/nata.jpg" alt="galeria1"></div>
-        <div class="nataFresaDown"><img src="img/bizcocho.jpg" alt="galeria1"></div>
-        <!--<div class="nataFresaDown" style="width:100%; height:50%"><img src="img/bizcocho.jpg" alt="galeria1"></div>-->
-         
-      </div>
-    
-      <div class="gallery-itemVerde">
-         <div class="polvoVerdeArriba">
-             <img src="img/verde.jpg">
-         </div>
-         <div class="polvoVerdeAbajo">
-             
-                   
-                        <div style="float:left;width: 40%; height:100%;padding-right:10px">
-                            <img src="img/sesam.jpg" alt="galeria1">
-                        </div>
-                        <div class="gallery-utensilios" style="float:left;width: 60%; height:100%">
-                            <img src="img/pastillas.jpg" alt="galeria1">
-                        </div>    
-                    
-             
-             
-         
-       </div>  
-      </div>
-      <div >
-        <img src="img/lich.jpg">
-         
-      </div>
-      <div class="gallery-itemFresas">
-        <img src="img/mochis.gif" alt="mochi Barcelona">
-      </div>
-      
-      <div class="gallery-itemFresas">
-        <img src="img/g1.jpg" alt="galeria1">
-      </div>
-      <div class="gallery-item1">
-        <div class="nataFesaUp" style="width:100%; height:50%"><img src="img/pastelFresaNaranja.jpg" alt="galeria1"></div>
-        <!--<div><img src="img/utensilios.jpg" alt="galeria1"></div>-->
-         
-        <div class="nataFresaDown" style="width:100%; height:50%"><img src="img/mitad.jpg" alt="galeria1"></div>
-         
-      </div>
-      
-     
-      <div class="gallery-item3">
-        <img src="img/dorayaki.jpg" alt="galeria1">
-       
-      </div>
-      <div class="gallery-item3">
-        <img src="img/bizcochito.jpg" alt="galeria1">
-       
-      </div>
-       <div class="gallery-itemVerde">
-          <div class="polvoVerdeArriba2">
-                 <img src="img/cacau.jpg">
-             </div>
-         <div class="polvoVerdeAbajo2">
-             
-                   <img src="img/cake.jpg" alt="galeria1"> 
-            
-         
-          </div>  
-          
-          </div>
-          <div class="gallery-item3">
-            <img src="img/bandejaMochis.jpg" alt="Mochis obrador Barcelona">
-       
-          </div>
-          <div class="gallery-item3">
-            <img src="img/arandanos.jpg" alt="galeria1">
-       
-         </div>
-       
-    </div>
-      
-<br>
+  <br>
 
 <section class="mb-4">
 
@@ -249,6 +154,9 @@
       <i class="bi bi-envelope" style="font-size: 2rem; color:grey;"></i><p>kaori.obrador@gmail.com</p>
     </div>
   </div>
+
+  </div>
+   
 </section>
 <!--Section: Contact v.2-->
 
@@ -261,14 +169,3 @@
   <!-- Copyright -->
 </footer>
 
-
-      
-        
-       
-      
-
-    
-    
-    
- </body>
-</html>
